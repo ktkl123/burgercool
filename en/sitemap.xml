@@ -2,94 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/burgercool/en/categories/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/categories/"
+                href="https://ktkl123.github.io/burgercool/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/categories/"
+                href="https://ktkl123.github.io/burgercool/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/p/test-chinese/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/p/test-chinese/"
+                href="https://ktkl123.github.io/burgercool/p/test-chinese/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/p/test-chinese/"
+                href="https://ktkl123.github.io/burgercool/en/p/test-chinese/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/"
+                href="https://ktkl123.github.io/burgercool/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/"
+                href="https://ktkl123.github.io/burgercool/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/post/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/post/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/post/"
+                href="https://ktkl123.github.io/burgercool/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/post/"
+                href="https://ktkl123.github.io/burgercool/en/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/categories/test/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/categories/test/"
+                href="https://ktkl123.github.io/burgercool/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/categories/test/"
+                href="https://ktkl123.github.io/burgercool/en/categories/test/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/categories/%E6%B5%8B%E8%AF%95/"
+                href="https://ktkl123.github.io/burgercool/categories/%E6%B5%8B%E8%AF%95/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/categories/%E6%B5%8B%E8%AF%95/"
+                href="https://ktkl123.github.io/burgercool/en/categories/%E6%B5%8B%E8%AF%95/"
                 />
   </url><url>
-    <loc>http://localhost:1313/burgercool/en/tags/</loc>
+    <loc>https://ktkl123.github.io/burgercool/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/burgercool/tags/"
+                href="https://ktkl123.github.io/burgercool/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/burgercool/en/tags/"
+                href="https://ktkl123.github.io/burgercool/en/tags/"
                 />
   </url>
 </urlset>
