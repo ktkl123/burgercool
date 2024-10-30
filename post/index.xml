@@ -93,6 +93,27 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最后是更新文章，博主采用的方法可能是笨办法，是把写好的文章内容覆盖，重新上传，仅供参考。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301307290.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301307290.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;重复上传操作即可查看到更新的博客。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301310451.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301310451.png&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;h4 id=&#34;常见错误&#34;&gt;常见错误
 &lt;/h4&gt;&lt;p&gt;​ 遇到了代理的问题们，可以把 http 和 https 的协议取消掉，使用本地的代理进行网络访问&lt;/p&gt;
 &lt;p&gt;例如：fatal: unable to access &amp;lsquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ktkl123/burgercool-main.git/%27&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
