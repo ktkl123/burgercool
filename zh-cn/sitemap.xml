@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ktkl123.github.io/burgercool/</loc>
-    <lastmod>2024-10-16T23:15:38+21:00</lastmod>
+    <lastmod>2024-10-30T10:58:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="https://ktkl123.github.io/burgercool/"
                 />
   </url><url>
+    <loc>https://ktkl123.github.io/burgercool/p/electron%E5%AE%9E%E7%8E%B0%E6%89%98%E7%9B%98%E5%AE%9E%E6%88%98/</loc>
+    <lastmod>2024-10-30T10:58:52+08:00</lastmod>
+  </url><url>
     <loc>https://ktkl123.github.io/burgercool/post/</loc>
-    <lastmod>2024-10-16T23:15:38+21:00</lastmod>
+    <lastmod>2024-10-30T10:58:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -152,6 +155,8 @@
   </url><url>
     <loc>https://ktkl123.github.io/burgercool/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ktkl123.github.io/burgercool/p/</loc>
   </url><url>
     <loc>https://ktkl123.github.io/burgercool/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
