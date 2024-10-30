@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Electron 实现托盘实战 主进程中创建托盘 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
 <title>Electron实现托盘实战</title>
 
 <link rel='canonical' href='https://ktkl123.github.io/burgercool/p/electron%E5%AE%9E%E7%8E%B0%E6%89%98%E7%9B%98%E5%AE%9E%E6%88%98/'>
 
 <link rel="stylesheet" href="/burgercool/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Electron实现托盘实战">
-<meta property='og:description' content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
+<meta property='og:description' content="Electron 实现托盘实战 主进程中创建托盘 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
 <meta property='og:url' content='https://ktkl123.github.io/burgercool/p/electron%E5%AE%9E%E7%8E%B0%E6%89%98%E7%9B%98%E5%AE%9E%E6%88%98/'>
 <meta property='og:site_name' content='卡塔酷栗zzz'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-30T10:58:52&#43;08:00'/><meta property='article:modified_time' content='2024-10-30T10:58:52&#43;08:00'/>
 <meta name="twitter:title" content="Electron实现托盘实战">
-<meta name="twitter:description" content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
+<meta name="twitter:description" content="Electron 实现托盘实战 主进程中创建托盘 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
     </head>
     <body class="
     article-page
@@ -368,8 +368,16 @@
 </h3><ol>
 <li>主进程中创建托盘</li>
 </ol>
-<p><a class="link" href="https://github.com/ktkl123/blog-img/blob/main/image-20241029234117486.png"  target="_blank" rel="noopener"
-    >blog-img/image-20241029234117486.png at main · ktkl123/blog-img</a></p>
+<p><img src="https://github.com/ktkl123/blog-img/blob/main/image-20241029234117486.png?raw=true"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image-20241029234117486.png"
+	
+	
+></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
