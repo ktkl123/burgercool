@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="###abc AAAA\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
 <title>Electron实现托盘实战</title>
 
 <link rel='canonical' href='https://ktkl123.github.io/burgercool/p/electron%E5%AE%9E%E7%8E%B0%E6%89%98%E7%9B%98%E5%AE%9E%E6%88%98/'>
 
 <link rel="stylesheet" href="/burgercool/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Electron实现托盘实战">
-<meta property='og:description' content="###abc AAAA\n">
+<meta property='og:description' content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
 <meta property='og:url' content='https://ktkl123.github.io/burgercool/p/electron%E5%AE%9E%E7%8E%B0%E6%89%98%E7%9B%98%E5%AE%9E%E6%88%98/'>
 <meta property='og:site_name' content='卡塔酷栗zzz'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-30T10:58:52&#43;08:00'/><meta property='article:modified_time' content='2024-10-30T10:58:52&#43;08:00'/>
 <meta name="twitter:title" content="Electron实现托盘实战">
-<meta name="twitter:description" content="###abc AAAA\n">
+<meta name="twitter:description" content="Electron 实现托盘实战 主进程中创建托盘 blog-img/image-20241029234117486.png at main · ktkl123/blog-img\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 //托盘 const tray = new Tray(icon); const contextMenu = [ { label: &#34;退出EasyChat&#34;, click: function () { app.exit(); }, }, ]; const menu = Menu.buildFromTemplate(contextMenu); tray.setToolTip(&#34;EasyChat&#34;); tray.setContextMenu(menu); // 点击托盘图标，显示主窗口 tray.on(&#34;click&#34;, () =&gt; { mainWindow.setSkipTaskbar(false); mainWindow.show(); }); ">
     </head>
     <body class="
     article-page
@@ -266,7 +266,42 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#electron-实现托盘实战">Electron 实现托盘实战</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -329,9 +364,57 @@
     <section class="article-content">
     
     
-    <p>###abc
-AAAA</p>
-
+    <h3 id="electron-实现托盘实战">Electron 实现托盘实战
+</h3><ol>
+<li>主进程中创建托盘</li>
+</ol>
+<p><a class="link" href="https://github.com/ktkl123/blog-img/blob/main/image-20241029234117486.png"  target="_blank" rel="noopener"
+    >blog-img/image-20241029234117486.png at main · ktkl123/blog-img</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">//托盘
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">tray</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Tray</span><span class="p">(</span><span class="nx">icon</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">contextMenu</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">label</span><span class="o">:</span> <span class="s2">&#34;退出EasyChat&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">click</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">app</span><span class="p">.</span><span class="nx">exit</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">menu</span> <span class="o">=</span> <span class="nx">Menu</span><span class="p">.</span><span class="nx">buildFromTemplate</span><span class="p">(</span><span class="nx">contextMenu</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">tray</span><span class="p">.</span><span class="nx">setToolTip</span><span class="p">(</span><span class="s2">&#34;EasyChat&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">tray</span><span class="p">.</span><span class="nx">setContextMenu</span><span class="p">(</span><span class="nx">menu</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 点击托盘图标，显示主窗口
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">tray</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;click&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">setSkipTaskbar</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">show</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
