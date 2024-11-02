@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Github on 卡塔酷栗zzz</title>
+        <link>https://ktkl123.github.io/burgercool/categories/github/</link>
+        <description>Recent content in Github on 卡塔酷栗zzz</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>卡塔酷栗zzz</copyright>
+        <lastBuildDate>Wed, 30 Oct 2024 12:59:16 +0800</lastBuildDate><atom:link href="https://ktkl123.github.io/burgercool/categories/github/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>GIthub&#43;Hugo&#43;PicGo&#43;Typora使用博客</title>
+        <link>https://ktkl123.github.io/burgercool/p/github-hugo-picgo-typora%E4%BD%BF%E7%94%A8%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Wed, 30 Oct 2024 12:59:16 +0800</pubDate>
+        
+        <guid>https://ktkl123.github.io/burgercool/p/github-hugo-picgo-typora%E4%BD%BF%E7%94%A8%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;h3 id=&#34;githubhugopicgotypora-使用博客&#34;&gt;GIthub+Hugo+PicGo+Typora 使用博客
+&lt;/h3&gt;&lt;h4 id=&#34;部署-github-仓库&#34;&gt;部署 GitHub 仓库
+&lt;/h4&gt;&lt;p&gt;参考 b 站博主的视频，本文详述部署成功后如何上传博客（自己的小白操作方法）&lt;/p&gt;
+&lt;p&gt;【【雷】Hugo + Github 免费搭建博客，并实现自动化部署】 &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1bovfeaEtQ/?share_source=copy_web&amp;amp;vd_source=d65e35afabf137f0b13f2b026055c030&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV1bovfeaEtQ/?share_source=copy_web&amp;vd_source=d65e35afabf137f0b13f2b026055c030&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;搭建图床&#34;&gt;搭建图床
+&lt;/h4&gt;&lt;p&gt;参考博客，网上能搜到很多。大概流程就是新建仓库，获取 token，然后在 picgo 中设置，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果下载很慢可以设置自定义域名：https://cdn.jsdelivr.net/gh/[username]/[repositoryname]@main&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301248316.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301248316.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;配置好后即可上传图片至 GitHub 仓库&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301252840.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301252840.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;写博客&#34;&gt;写博客
+&lt;/h4&gt;&lt;p&gt;在 hugo\dev 目录中打开终端，创建一个新的 index.md 文件&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301259102.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301259102.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content post/xxx/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;接着就是上传至仓库，按顺序输入指令：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301302710.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301302710.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add . git commit -m &amp;#34;update&amp;#34; git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;打开博客可以看到新建的博客文章&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301304751.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301304751.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后是更新文章，博主采用的方法可能是笨办法，是把写好的文章内容覆盖，重新上传，仅供参考。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301307290.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301307290.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;重复上传操作即可查看到更新的博客。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301310451.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://cdn.jsdelivr.net/gh/ktkl123/blog-img@main/202410301310451.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;常见错误&#34;&gt;常见错误
+&lt;/h4&gt;&lt;p&gt;​ 遇到了代理的问题们，可以把 http 和 https 的协议取消掉，使用本地的代理进行网络访问&lt;/p&gt;
+&lt;p&gt;例如：fatal: unable to access &amp;lsquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ktkl123/burgercool-main.git/%27&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ktkl123/burgercool-main.git/&#39;&lt;/a&gt;: Failed to connect to github.com port 443 after 21130 ms: Couldn&amp;rsquo;t connect to server&lt;/p&gt;
+&lt;p&gt;例如：fatal: unable to access &amp;lsquo;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ktkl123/burgercool-main.git/%27&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ktkl123/burgercool-main.git/&#39;&lt;/a&gt;: Failure when receiving data from the peer&lt;/p&gt;
+&lt;!--取消http和https代理--&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global --unset https.proxy** git config --global --unset http.proxy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!--改用本地代理--&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global http.proxy http://127.0.0.1:7890
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!--查看当前的代理--&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
